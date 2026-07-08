@@ -1,0 +1,15 @@
+.DS_Store
+scratchpad/
+# raw generation intermediates — final media is inlined in the HTML
+assets/*
+!assets/og.png
+!assets/favicon.png
+!assets/glasses_safety.jpg
+!assets/spin_small.mp4
+!assets/j_ls4.mp4
+!assets/j_wh2.mp4
+!assets/j_boosterA.mp4
+!assets/j_valve.mp4
+!assets/mentra_logo.svg
+!assets/penn_shield.png
+!assets/swc_trim.png
