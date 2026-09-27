@@ -11,7 +11,7 @@ Prototype built with **Standard Water × The Water Center at Penn × Mentra**. F
 - **`app.html`** — Keepwell Field: the work-order app. Each round shows the regulation it satisfies and the compliance record it generates.
 - **`demo.html`** — the field-capture concept demo (operator + supervisor views, live capture, searchable library, asset telemetry).
 
-Each page is fully self-contained (all media inlined as data URIs).
+Page media lives in `assets/media/` as separate files, so the HTML stays small enough for link previews (iMessage, Slack, LinkedIn) to read the share tags.
 
 ## Grounding
 The compliance framing is grounded in real regulation (SDWA / 40 CFR Part 141, PA 25 Pa. Code Ch. 109). See **`REGULATORY_HOOKS.md`** for the cited hooks (sanitary surveys, RTCR, disinfectant residual, the 20 psi distribution floor, reporting deadlines, M/R violation stats, public-notification tiers, workflow → record map).
